@@ -1,3 +1,5 @@
+# Introduction to programming
+---
 ## Programming
 Programming in simple terms can be stated as a way of instructing computer to perform some task. We write a code and pass it to computer and the computer then performs tasks accordingly. The computer can only understand language of 0's and 1's, so we can say that programming at its heart is nothing but passing a stream of 0's and 1's computer.
 Now, if internally its only 0's and 1's it would be very difficult for us to write all the instruction as a combination of 0's and 1's only. That is the reason we have different programming languages which allow us to write all those instructions in human redable format. Eventually computer is going to translate all that code into 0's and 1's but atleast we are saved from the the pain of writing all instructions in its naive form.
