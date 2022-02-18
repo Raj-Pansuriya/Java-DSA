@@ -10,6 +10,19 @@ public class VarArgs {
         // Now let us say we want to pass different types of arguments. We can do that
         // as follows
         varTypes(1, 2, "Raj", "Pasnuriya");
+
+        // in the below function, you can't have zero arguments because it will create
+        // an ambiguity and the program will not be able to decide which function(fun)
+        // to run on compile time thereby raising an error
+        // fun();
+    }
+
+    static void fun(int... i) {
+        System.out.println();
+    }
+
+    static void fun(String... j) {
+        System.out.println();
     }
 
     static void varTypes(int a, int b, String... s) {
