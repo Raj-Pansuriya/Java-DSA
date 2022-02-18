@@ -17,6 +17,10 @@ public class Shadowing {
     }
 
     static void function() {
+        // The local var. declared earlier in the main method, has scope till that block
+        // only
+        // hence the below line refers to the class variable.
+        x = 11;
         System.out.println(x);
     }
 }
